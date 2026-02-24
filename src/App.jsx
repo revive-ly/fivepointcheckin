@@ -115,9 +115,9 @@ export default function App() {
             className="card-container"
           >
             <div className="glass-panel text-center">
-              <h1 className="title" style={{ marginTop: '1rem', marginBottom: '1rem' }}>The 5 Point Check-In</h1>
+              <h1 className="title" style={{ marginTop: '1rem', marginBottom: '1rem' }}>Decode Your State, Find Your Support</h1>
               <p style={{ marginBottom: '3rem', color: 'var(--text-secondary)' }}>
-                A gentle assessment of your nervous system state.
+                Start your 5 Point Check-In today to decode how you’re feeling and get the support you need.
               </p>
               <button className="glass-button glass-button-primary" onClick={handleStart}>
                 Begin Check-In
