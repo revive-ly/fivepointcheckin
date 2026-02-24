@@ -120,7 +120,7 @@ export default function App() {
                 Start your 5 Point Check-In today to decode how you’re feeling and get the support you need.
               </p>
               <button className="glass-button glass-button-primary" onClick={handleStart}>
-                Begin Check-In
+                Find your growth path
               </button>
             </div>
           </motion.div>
