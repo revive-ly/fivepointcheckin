@@ -47,13 +47,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 #root {
   width: 100%;
   max-width: 420px;
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -167,10 +168,10 @@ h3 {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   padding: 1rem;
   position: relative;
-  overflow: hidden;
+  overflow-y: auto;
+  min-height: 100vh;
 }
 
 .progress-text {
@@ -211,6 +212,7 @@ h3 {
 .card-container {
   position: relative;
   width: 100%;
+  margin: auto 0;
 }
 
 
