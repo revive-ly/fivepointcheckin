@@ -212,3 +212,80 @@ h3 {
   position: relative;
   width: 100%;
 }
+
+
+/*NEW BUTTONS*/
+
+/* ===== Results Actions Row ===== */
+.results-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+/* ===== Premium Glass Action Button ===== */
+.glass-action {
+  flex: 1;
+  position: relative;
+
+  /* 1. The "True Glass" Background */
+  /* We use a very transparent white to let the background image shine through */
+  background: rgba(51, 88, 105, 1);
+
+  /* 2. The Blur & Saturation (The 'Liquid' part) */
+  /* This creates the 'clip-path' feel by blurring whatever is behind the button */
+  backdrop-filter: blur(20px) saturate(160%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%);
+
+  /* 3. High-Definition Borders */
+  /* Thicker top border mimics light hitting the edge of a glass pane */
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-top: 1.5px solid rgba(255, 255, 255, 0.6);
+
+  /* 4. Depth & Shadows */
+  box-shadow:
+    0 8px 32px 0 rgba(0, 0, 0, 0.3),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+
+  border-radius: var(--radius-button);
+  color: var(--text-primary);
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 1.125rem 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: all 0.25s cubic-bezier(0.25, 1, 0.5, 1);
+  overflow: hidden;
+}
+
+/* ✨ glossy top highlight */
+.glass-action::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg,
+      rgba(255, 255, 255, 0.3) 0%,
+      rgba(255, 255, 255, 0) 50%,
+      rgba(255, 255, 255, 0.05) 100%);
+  pointer-events: none;
+}
+
+/* Interaction States */
+.glass-action:hover {
+  background: rgba(255, 255, 255, 0.15);
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.4);
+}
+
+.glass-action:active {
+  transform: scale(0.96) translateY(0);
+}
