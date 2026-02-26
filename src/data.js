@@ -61,7 +61,7 @@ export const stateDescriptions = {
     title: "You’re likely in a state of Hyperarousal- a period of heightened stress or activation in your sympathetic nervous system. ",
     text: "This is a normal nervous-system response and happens to everyone. The key now is to tune in and notice: is there a true emergency, or does it just feel like one?\nEither way, the fact that you’re checking in is a very good sign that you’re open to seeing your other options. The SETTLE section has activities specifically designed for moments like this, offering practices to meet you where you are and bringing some relief to your activated nervous system.\nIf you’d like a bit more comfort before shifting state, you can choose a NURTURE practice from Resilience Resources, or something else from your favorites. What matters most is pausing, so you can meet yourself where you are and respond from a more centered place.",
     actions: [
-      { label: "SETTLE", url: "https://revively.passion.io/app/products/303795/lessons/5010323" },
+      { label: "SETTLE", url: "hhttp://revively.com/settle" },
       { label: "RESILIENCE RESOURCES", url: "https://www.revively.com/rrtest" }
     ]
   },
@@ -69,7 +69,7 @@ export const stateDescriptions = {
     title: "You’re likely experiencing Heightened Engagement - energized and stimulated, but not overwhelmed.",
     text: "This can be a constructive state for focus, productivity, and creative action. If this feels good and sustainable, you can savor where you are. \n You may also consider choosing a softening activity from SETTLE to downshift your state.\nThe important thing is pausing to check in, so you can choose the next step that feels right for you - whether that’s remaining where you are or gently pivoting back through SETTLE to ventral vagal state. As always, the Resilience Resources and your selected favorites are also available if you’d prefer something different.",
     actions: [
-      { label: "SETTLE", url: "https://revively.passion.io/app/products/303795/lessons/5010323" },
+      { label: "SETTLE", url: "hhttp://revively.com/settle" },
       { label: "RESILIENCE RESOURCES", url: "https://www.revively.com/rrtest" }
     ]
   },
