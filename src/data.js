@@ -62,7 +62,7 @@ export const stateDescriptions = {
     text: "This is a normal nervous-system response and happens to everyone. The key now is to tune in and notice: is there a true emergency, or does it just feel like one?\nEither way, the fact that you’re checking in is a very good sign that you’re open to seeing your other options. The SETTLE section has activities specifically designed for moments like this, offering practices to meet you where you are and bringing some relief to your activated nervous system.\nIf you’d like a bit more comfort before shifting state, you can choose a NURTURE practice from Resilience Resources, or something else from your favorites. What matters most is pausing, so you can meet yourself where you are and respond from a more centered place.",
     actions: [
       { label: "SETTLE", url: "https://revively.passion.io/app/products/303795/lessons/5010323" },
-      { label: "RESILIENCE RESOURCES", url: "https://revively.passion.io/app/products/303795/lessons/5010320" }
+      { label: "RESILIENCE RESOURCES", url: "https://www.revively.com/rrtest" }
     ]
   },
   heightened_engagement: {
@@ -70,7 +70,7 @@ export const stateDescriptions = {
     text: "This can be a constructive state for focus, productivity, and creative action. If this feels good and sustainable, you can savor where you are. \n You may also consider choosing a softening activity from SETTLE to downshift your state.\nThe important thing is pausing to check in, so you can choose the next step that feels right for you - whether that’s remaining where you are or gently pivoting back through SETTLE to ventral vagal state. As always, the Resilience Resources and your selected favorites are also available if you’d prefer something different.",
     actions: [
       { label: "SETTLE", url: "https://revively.passion.io/app/products/303795/lessons/5010323" },
-      { label: "RESILIENCE RESOURCES", url: "https://revively.passion.io/app/products/303795/lessons/5010320" }
+      { label: "RESILIENCE RESOURCES", url: "https://www.revively.com/rrtest" }
     ]
   },
   ventral_vagal: {
@@ -78,7 +78,7 @@ export const stateDescriptions = {
     text: "In this space, you can think clearly, experience well-being, and connect meaningfully with others. \n If this sounds like you, take a moment to really notice how it feels in your body. The more often you sense this ventral state, the easier it becomes to recognize it – and to notice when you’ve shifted away from it. \n If you’re up for it, please proceed to the Vagal Condititioning area where you can select an activity to expand your vagal range and flexibility. If that doesn’t feel right just now, the Resilience Resources and your selected favorites are available to you as well. ",
     actions: [
       { label: "VAGAL CONDITIONING", url: "https://revively.passion.io/app/products/303795/lessons/5010370" },
-      { label: "RESILIENCE RESOURCES", url: "https://revively.passion.io/app/products/303795/lessons/5010320" }
+      { label: "RESILIENCE RESOURCES", url: "https://www.revively.com/rrtest" }
     ]
   },
   low_activation: {
@@ -86,7 +86,7 @@ export const stateDescriptions = {
     text: "This is an ideal phase for recovery, reflection, and recharging your internal resources. \n You can dwell in this valuable downtime. However, if you’re looking to re-engage, you can choose an energizing activity from BOOST. \n The important thing is pausing to check in, so you can choose the next step that feels right for you - whether that’s remaining where you are or pivoting through BOOST to ventral vagal state. As always, the Resilience Resources and your selected favorites are also available if you’d prefer something different.",
     actions: [
       { label: "BOOST", url: "https://revively.passion.io/app/products/303795/lessons/5010390" },
-      { label: "RESILIENCE RESOURCES", url: "https://revively.passion.io/app/products/303795/lessons/5010320" }
+      { label: "RESILIENCE RESOURCES", url: "https://www.revively.com/rrtest" }
     ]
   },
   hypoarousal: {
@@ -94,7 +94,7 @@ export const stateDescriptions = {
     text: "This is a normal nervous-system response, which occurs after overwhelm, stress or exhaustion. It’s the body slowing down and conserving energy. \n This is a good time to check in to notice what you have the capacity for. The BOOST section has activities specifically designed for moments like this, offering practices to meet you where you are to re-energize and activate your system. \n  But, if this feels like too much, you can go to the Resilience Resources, and select an option from NURTURE, or use one of your favorites. What matters most is pausing to notice where you are, so you meet yourself gently and invite a bit more connection.",
     actions: [
       { label: "BOOST", url: "https://revively.passion.io/app/products/303795/lessons/5010390" },
-      { label: "RESILIENCE RESOURCES", url: "https://revively.passion.io/app/products/303795/lessons/5010320" }
+      { label: "RESILIENCE RESOURCES", url: "https://www.revively.com/rrtest" }
     ]
   }
 };
