@@ -62,7 +62,7 @@ export const stateDescriptions = {
     text: "This is a normal nervous-system response and happens to everyone. The key now is to tune in and notice: is there a true emergency, or does it just feel like one?\nEither way, the fact that you’re checking in is a very good sign that you’re open to seeing your other options. The SETTLE section has activities specifically designed for moments like this, offering practices to meet you where you are and bringing some relief to your activated nervous system.\nIf you’d like a bit more comfort before shifting state, you can choose a NURTURE practice from Resilience Resources, or something else from your favorites. What matters most is pausing, so you can meet yourself where you are and respond from a more centered place.",
     actions: [
       { label: "SETTLE", url: "http://revively.com/settle" },
-      { label: "RESILIENCE RESOURCES", url: "https://markocious.wixsite.com/rty-rvvly/resilience-resources" }
+      { label: "RESILIENCE RESOURCES", url: "https://markocious.wixsite.com/rty-rvvly/resilience-resources?tab=Settle" }
     ]
   },
   heightened_engagement: {
