@@ -85,7 +85,7 @@ export const stateDescriptions = {
     title: "You’re likely experiencing Low Activation - restorative, meditative, gently aware.",
     text: "This is an ideal phase for recovery, reflection, and recharging your internal resources. \n You can dwell in this valuable downtime. However, if you’re looking to re-engage, you can choose an energizing activity from BOOST. \n The important thing is pausing to check in, so you can choose the next step that feels right for you - whether that’s remaining where you are or pivoting through BOOST to ventral vagal state. As always, the Resilience Resources and your selected favorites are also available if you’d prefer something different.",
     actions: [
-      { label: "BOOST", url: "https://markocious.wixsite.com/rty-rvvly/resilience-resources?tab=Boost" },
+      { label: "BOOST", url: "https://markocious.wixsite.com/rty-rvvly/resilience-resources?tab=boost" },
       { label: "RESILIENCE RESOURCES", url: "https://markocious.wixsite.com/rty-rvvly/resilience-resources" }
     ]
   },
